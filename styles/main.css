@@ -26,11 +26,11 @@ body {
   z-index: -2;
 }
 
-.main-header .main-header__content {
+.main-header__content {
   margin-top: 200px;
 }
 
-.main-header .main-header__content p {
+.main-header__content p {
   max-width: 500px;
 }
 
@@ -54,5 +54,27 @@ body {
   background-color: #E9EFC0;
   height: 50vh;
   z-index: 999 !important;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .phone-bird {
+    -webkit-transform: unset;
+            transform: unset;
+    height: 400px;
+  }
+  .phone-bird-container {
+    position: unset;
+    top: unset;
+    text-align: center;
+  }
+  .main-header__quote {
+    position: unset;
+    margin: 15px auto;
+    text-align: center;
+  }
+  .main-header__content {
+    margin-top: 50px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
