@@ -38,6 +38,7 @@ body {
 
     background-color: $c-lightgreen;
     height: 100vh;
+    z-index: -2;
 
     .main-header__content {
 
@@ -49,3 +50,28 @@ body {
         }
     }
 }
+
+.phone-bird {
+
+    transform: rotate(15.79deg);
+}
+
+.phone-bird-container {
+
+    position: relative;
+    top: 13vh;
+}
+
+.main-header__quote {
+    
+    position: relative;
+    top: 10vh;
+    left: 100px;
+}
+
+.about-section {
+
+    background-color: $c-primary;
+    height: 50vh;
+    z-index: 999 !important;
+} 

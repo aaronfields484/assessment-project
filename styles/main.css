@@ -23,6 +23,7 @@ body {
 .main-header {
   background-color: #B4E197;
   height: 100vh;
+  z-index: -2;
 }
 
 .main-header .main-header__content {
@@ -31,5 +32,27 @@ body {
 
 .main-header .main-header__content p {
   max-width: 500px;
+}
+
+.phone-bird {
+  -webkit-transform: rotate(15.79deg);
+          transform: rotate(15.79deg);
+}
+
+.phone-bird-container {
+  position: relative;
+  top: 13vh;
+}
+
+.main-header__quote {
+  position: relative;
+  top: 10vh;
+  left: 100px;
+}
+
+.about-section {
+  background-color: #E9EFC0;
+  height: 50vh;
+  z-index: 999 !important;
 }
 /*# sourceMappingURL=main.css.map */
