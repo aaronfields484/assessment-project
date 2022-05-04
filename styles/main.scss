@@ -4,6 +4,7 @@
 /* Variables */
 $c-primary: #E9EFC0;
 $c-secondary: #4E944F;
+$c-lightgreen: #B4E197;
 
 $font-main: 'Playfair Display', serif;
 $font-secondary: 'Poppins', sans-serif;
@@ -26,8 +27,25 @@ body {
     background-color: $c-primary;
 }
 
-
+/* Navbar */
 .navbar {
 
     background-color: $c-secondary;
+}
+
+/* Header */
+.main-header {
+
+    background-color: $c-lightgreen;
+    height: 100vh;
+
+    .main-header__content {
+
+        margin-top: 200px;
+
+        p {
+
+            max-width: 500px;
+        }
+    }
 }

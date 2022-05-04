@@ -14,7 +14,22 @@ body {
   background-color: #E9EFC0;
 }
 
+/* Navbar */
 .navbar {
   background-color: #4E944F;
+}
+
+/* Header */
+.main-header {
+  background-color: #B4E197;
+  height: 100vh;
+}
+
+.main-header .main-header__content {
+  margin-top: 200px;
+}
+
+.main-header .main-header__content p {
+  max-width: 500px;
 }
 /*# sourceMappingURL=main.css.map */
