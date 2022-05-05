@@ -70,18 +70,77 @@
       
       <!-- About Section -->
       <section class="about-section">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 p-5 align-self-center">
-            <div class="container px-5 mx-5">
-              <h1>About</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut sem viverra. Feugiat pretium nibh ipsum consequat nisl...</p>
-              <button class="fs-5 p-3 btn btn-outline-success">Learn More</button>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 align-self-center">
+              <div class="container-md about-section__content">
+                <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut sem viverra. Feugiat pretium nibh ipsum consequat nisl...</p>
+                <button class="fs-5 p-3 btn btn-outline-success">Learn More</button>
+              </div>
+            </div>
+            <div class="about-section__img col-lg-6 col-md-6"></div>
+          </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section py-5">
+        <div class="container">
+          <h2 class="mx-auto my-5 p-5 text-center">Features</h2>
+
+          <div class="cards">
+            <div class="card text-center p-5" style="width: 20rem;">
+              <div class="card-body">
+                <i class="fs-2 bi bi-ethernet"></i>
+                <h5 class="card-title my-3">Connect</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card text-center p-5" style="width: 20rem;">
+              <div class="card-body">
+                <i class="fs-2 bi bi-share"></i>
+                <h5 class="card-title my-3">Share</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card text-center p-5" style="width: 20rem;">
+              <div class="card-body">
+                <i class="fs-2 bi bi-binoculars-fill"></i>
+                <h5 class="card-title my-3">Explore</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
             </div>
           </div>
-          <img class="col-lg-6 col-md-6 about-section__img" src="./img/about-placeholder.jpg">
         </div>
       </section>
 
+      <!-- Testimonials -->
+      <section class="testimonials">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/carousel-one.jpg" class="bg-carousel d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <img class="headshot" src="./img/headshot-one.jpg" alt="Jericho Headshot">
+                <h5><q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo expedita repellat obcaecati natus? Fugiat porro quaerat voluptatibus iusto, esse numquam.</q></h5>
+                <p>-Jericho Watson</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
 
     <!-- Local JS -->
     <script src="./scripts/main.js"></script>
@@ -92,5 +151,5 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
-    </body>
+  </body>
 </html>

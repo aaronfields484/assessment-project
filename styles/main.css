@@ -54,8 +54,79 @@ body {
 /* About Section */
 .about-section {
   background-color: #E9EFC0;
-  height: 50vh;
   z-index: 999 !important;
+}
+
+.about-section {
+  overflow-x: hidden;
+}
+
+.about-section .about-section__content {
+  padding: 10%;
+  margin: 20px auto;
+}
+
+.about-section__img {
+  background-image: url("../img/about-placeholder.jpg");
+  background-size: cover;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #B4E197;
+}
+
+.features-section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.features-section .card {
+  color: #E9EFC0;
+  background-color: #4E944F;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.features-section .card:hover {
+  -webkit-box-shadow: inset 0 0 10px #000000;
+          box-shadow: inset 0 0 10px #000000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Testimonials */
+.bg-carousel {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: blur(3px) brightness(0.4);
+          filter: blur(3px) brightness(0.4);
+}
+
+.carousel-caption {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+}
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 10px;
 }
 
 /* Media Queries */
