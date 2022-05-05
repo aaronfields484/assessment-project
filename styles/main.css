@@ -203,6 +203,35 @@ footer ul li {
   background-color: #346234;
 }
 
+/* Contact Page */
+.contact-section {
+  background-image: url("../img/contact.jpg");
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 80px;
+}
+
+.contact-section h1 {
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+
+.contact-form {
+  background-color: #4e944fad;
+  padding: 10px;
+}
+
+.contact-form .form-control {
+  background-color: #E9EFC0;
+  border-radius: 0;
+  height: 80px;
+}
+
+.contact-info {
+  background-color: #4e944fad;
+  padding: 20px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .phone-bird {

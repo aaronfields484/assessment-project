@@ -238,6 +238,41 @@ footer {
     background-color: darken($c-secondary, 15%);
 }
 
+/* Contact Page */
+
+.contact-section {
+
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 80px;
+
+    h1 {
+
+        padding-top: 150px;
+        margin-bottom: 60px;
+    }
+}
+
+.contact-form {
+
+    background-color: #4e944fad;
+    padding: 10px;
+
+    .form-control {
+
+        background-color: $c-primary;
+        border-radius: 0;
+        height: 80px;
+    }
+}
+
+.contact-info {
+
+    background-color: #4e944fad;
+    padding: 20px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
