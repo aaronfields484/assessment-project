@@ -53,6 +53,17 @@ body {
   left: 100px;
 }
 
+.about-header {
+  height: 80vh;
+  background-image: url("../img/about-header.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.about-header h1 {
+  font-size: 4rem;
+}
+
 /* About Section */
 .about-section {
   background-color: #E9EFC0;
@@ -74,6 +85,22 @@ body {
   min-height: 60vh;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.bg-lightgreen {
+  background-color: #B4E197;
+}
+
+.about-section__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-section__col .about-section__img {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
 }
 
 /* Features Section */
@@ -146,6 +173,15 @@ body {
   row-gap: 10px;
 }
 
+/* FAQ */
+.accordion-button {
+  background-color: #4E944F;
+}
+
+.accordion-body {
+  background-color: #B4E197;
+}
+
 /* Footer */
 footer {
   background-color: #4E944F;
@@ -194,6 +230,16 @@ footer ul li {
   }
   footer h4, footer ul {
     padding-right: 40px;
+  }
+  .about-section__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-section__col .about-section__img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 /*# sourceMappingURL=main.css.map */
