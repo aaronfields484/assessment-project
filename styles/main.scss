@@ -118,6 +118,11 @@ body {
     background-position: center center;
 }
 
+.about-section__two {
+
+    background-image: url('../img/about-placeholder-two.jpg') !important;
+}
+
 .bg-lightgreen {
 
     background-color: $c-lightgreen;
@@ -132,6 +137,8 @@ body {
         order: 0;
     }
 }
+
+
 
 /* Features Section */
 .features-section {
@@ -263,13 +270,27 @@ footer {
 .contact-form {
 
     background-color: #4e944fad;
-    padding: 10px;
+    padding: 15px;
 
     .form-control {
 
         background-color: $c-primary;
         border-radius: 0;
         height: 80px;
+    }
+
+    .btn {
+        
+        color: $c-primary;
+        border: 2px $c-primary solid;
+        padding: 10px;
+        margin: 5px auto;
+
+        &:hover {
+
+            background-color: $c-primary !important;
+            color: $c-secondary;
+        }
     }
 }
 

@@ -93,6 +93,10 @@ body {
   background-position: center center;
 }
 
+.about-section__two {
+  background-image: url("../img/about-placeholder-two.jpg") !important;
+}
+
 .bg-lightgreen {
   background-color: #B4E197;
 }
@@ -224,13 +228,25 @@ footer ul li {
 
 .contact-form {
   background-color: #4e944fad;
-  padding: 10px;
+  padding: 15px;
 }
 
 .contact-form .form-control {
   background-color: #E9EFC0;
   border-radius: 0;
   height: 80px;
+}
+
+.contact-form .btn {
+  color: #E9EFC0;
+  border: 2px #E9EFC0 solid;
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.contact-form .btn:hover {
+  background-color: #E9EFC0 !important;
+  color: #4E944F;
 }
 
 .contact-info {
