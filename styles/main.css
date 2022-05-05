@@ -12,6 +12,7 @@ p, li, a {
 
 body {
   background-color: #E9EFC0;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -50,6 +51,7 @@ body {
   left: 100px;
 }
 
+/* About Section */
 .about-section {
   background-color: #E9EFC0;
   height: 50vh;

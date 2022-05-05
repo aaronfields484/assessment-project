@@ -25,6 +25,7 @@ p,li,a {
 body {
 
     background-color: $c-primary;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -68,6 +69,8 @@ body {
     top: 10vh;
     left: 100px;
 }
+
+/* About Section */
 
 .about-section {
 
