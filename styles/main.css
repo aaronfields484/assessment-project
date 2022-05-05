@@ -205,6 +205,10 @@ footer ul li {
   margin-top: 5px;
 }
 
+footer ul li:hover a {
+  color: #B4E197;
+}
+
 .footer-list {
   padding-left: 0 !important;
 }

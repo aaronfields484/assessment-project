@@ -237,6 +237,11 @@ footer {
         li {
 
             margin-top: 5px;
+
+            &:hover a {
+
+                color: $c-lightgreen;
+            }
         }
     }
 }
